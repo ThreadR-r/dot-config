@@ -8,7 +8,7 @@ sudo pacman -S dunst
 ## https://wiki.hypr.land/0.52.0/Useful-Utilities/Must-have/#pipewire
 sudo pacman -Q | grep xdg-desktop-portal-
 sudo pacman -S grim slurp
-sudo pacman -S pipewire wireplumber xdg-desktop-portal-hyprland
+sudo pacman -S pipewire pipewire-pulse wireplumber xdg-desktop-portal-hyprland
 
 
 # App elevating privilege
@@ -23,13 +23,17 @@ sudo pacman -S qt5-wayland qt6-wayland
 # Font install
 ## https://wiki.hypr.land/0.52.0/Useful-Utilities/Must-have/#fonts
 sudo pacman -S ttf-noto-nerd
+### Sélectionner la police GTK :
+sudo pacman -S nwg-look
 
 # Status bar
 ## https://wiki.hypr.land/0.52.0/Useful-Utilities/Status-Bars/
 
 # Wallpaper
 sudo pacman -S hyprpaper
-sudo pacman -S waybar
+
+# Status bar
+yay -S ags-hyprpanel-git
 
 
 # App launcher
@@ -39,3 +43,10 @@ yay -S vicinae-bin
 
 # Brightness laptop
 sudo pacman -S brightnessctl
+
+
+# Network
+sudo pacman -S network-manager-applet
+
+# Locker
+sudo pacman -S hyprlock
