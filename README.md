@@ -7,5 +7,6 @@
 
 # Usage
 
-- First use `init-install.sh` to install the required packages (use pacman and yay).
-- Make a simlink of ~/.config/hypr to point to the hypr folder present here.
+- First use `1-install-dependencies.sh` to install the required packages (it uses pacman and yay).
+- Then use `2-install.sh` to remove eventual present config and copy the new config.
+- Then put your favorite custom wallpaper.jpg into your ~/Images/ directory.
