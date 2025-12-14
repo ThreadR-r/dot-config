@@ -49,4 +49,4 @@ sudo pacman -S brightnessctl
 sudo pacman -S network-manager-applet
 
 # Locker
-sudo pacman -S hyprlock
+sudo pacman -S hypridle hyprlock
